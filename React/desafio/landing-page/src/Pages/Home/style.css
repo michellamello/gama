@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #242582;
+}
+
+.div1 {
+    border-top: 70vh solid #f64c72;
+    border-right: 30vh solid #242582;
+}
+
+.div2 {
+    border-bottom: 20vh solid #f64c72;
+    border-left: 100vh solid #242582;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15rem;
+    width: 20rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titleLandingPage {
+    color: white;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.inputContactData {
+    border-style: none;
+    height: 2rem;
+    font-size: 16pt;
+
+    
+}
+
+.inputContactData:focus, .inputContactData:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.sendButton {
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    background-color: #f64c72;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 100px;
+    bottom: 5rem;
+    right: 5rem;
+}
+
+.errorMessage {
+    color: white;
+}
